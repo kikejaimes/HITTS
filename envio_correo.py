@@ -10,7 +10,7 @@ destinatarios = ['luis.jaimess@claro.com.co']
 #destinatarios = ['Elga.Prieto@claro.com.co','diego.clavijo@claro.com.co','Maricely.vargasr@claro.com.co', 'carmen.diaz@claro.com.co']
 asunto = '[RPI] Correo de prueba'
 cuerpo = 'Buen Día,A continuación se relaciona el link de publicación de la base a corte del día de ayer:'
-ruta_adjunto = 'D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos'
+ruta_adjunto = 'D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD31_PQR_VS_AJU.zip'
 nombre_adjunto = 'BDD31_PQR_VS_AJU.zip'
 
 # Creamos el objeto mensaje
@@ -39,13 +39,14 @@ adjunto_MIME.add_header('Content-Disposition', "attachment; filename= %s" % nomb
 mensaje.attach(adjunto_MIME)
  
 # Creamos la conexión con el servidor
-sesion_smtp = smtplib.SMTP('smtp.outlook.com', 587)
+sesion_smtp = smtplib.SMTP('smtp.outlook.office365.com', 587)
+#sesion_smtp = smtplib.SMTP('owa.comcel.com.co', 587)
  
 # Ciframos la conexión
 sesion_smtp.starttls()
 
 # Iniciamos sesión en el servidor
-sesion_smtp.login('jaimesle@globalhitss.com','P19.fujrf*')
+sesion_smtp.login('jaimesle@globalhits.com','Incorrect@1')
 
 # Convertimos el objeto mensaje a texto
 texto = mensaje.as_string()

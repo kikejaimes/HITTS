@@ -2,6 +2,12 @@ import zipfile
 import zipfile
 
 
+#CRC
+jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD31__QMF_Marcacion_CAN-IPC-CRC.zip', 'w')
+jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD31__QMF_Marcacion_CAN-IPC-CRC.xls', compress_type=zipfile.ZIP_DEFLATED)
+
+
+
 #AJU
 jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD31_PQR_VS_AJU.zip', 'w')
 jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD31_PQR_VS_AJU.xls', compress_type=zipfile.ZIP_DEFLATED)
@@ -33,8 +39,8 @@ jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Arch
 jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD23_MARCA_GTC.csv', compress_type=zipfile.ZIP_DEFLATED)
 
 #Escalados Vip_IVR
-jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_VIP_IVR.zip', 'w')
-jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_VIP_IVR.xls', compress_type=zipfile.ZIP_DEFLATED)
+#jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_VIP_IVR.zip', 'w')
+#jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_VIP_IVR.xls', compress_type=zipfile.ZIP_DEFLATED)
 
 #Inventario DSS
 jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD88_Inventario_DIS_DSS.zip', 'w')
