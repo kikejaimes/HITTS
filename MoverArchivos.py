@@ -108,7 +108,7 @@ shutil.copy("D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD31_Reinci
             #"C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 2023 (1)\\03 Marzo")
 
 #Ingresos PQR
-shutil.copy("D:\Informes\BASES DIARIAS PQR\BDD_Ingresos_pqr_Mar_2023_0.zip", 
+shutil.copy("D:\Informes\BASES DIARIAS PQR\BDD_Ingresos_pqr_Mar_2023.zip", 
             "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 2023 (1)\\03 Marzo")
 
 #Finalizados PQR

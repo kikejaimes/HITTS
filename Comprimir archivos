@@ -35,8 +35,8 @@ jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Arch
 jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD13_Marcaciones_Webcenter.xls', compress_type=zipfile.ZIP_DEFLATED)
 
 #GTC
-jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD23_MARCA_GTC.zip', 'w')
-jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD23_MARCA_GTC.csv', compress_type=zipfile.ZIP_DEFLATED)
+#jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD23_MARCA_GTC.zip', 'w')
+#jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD23_MARCA_GTC.csv', compress_type=zipfile.ZIP_DEFLATED)
 
 #Escalados Vip_IVR
 #jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_VIP_IVR.zip', 'w')
