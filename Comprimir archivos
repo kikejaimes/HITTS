@@ -42,6 +42,12 @@ jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD13_M
 #jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_VIP_IVR.zip', 'w')
 #jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_VIP_IVR.xls', compress_type=zipfile.ZIP_DEFLATED)
 
+#Reincidencia Vip_AV
+jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Reincidencia_VIP_AV.zip', 'w')
+jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Reincidencia_VIP_AV.xls', compress_type=zipfile.ZIP_DEFLATED)
+
+
+
 #Inventario DSS
 jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD88_Inventario_DIS_DSS.zip', 'w')
 jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD88_Inventario_DIS_DSS.csv', compress_type=zipfile.ZIP_DEFLATED)

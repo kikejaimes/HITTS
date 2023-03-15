@@ -114,3 +114,5 @@ shutil.copy("D:\Informes\BASES DIARIAS PQR\BDD_Ingresos_pqr_Mar_2023.zip",
 #Finalizados PQR
 shutil.copy("D:\Informes\BASES DIARIAS PQR\BDD_Finalizados_Pqr_Mar_2023.zip", 
             "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 2023 (1)\\03 Marzo")
+
+

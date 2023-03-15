@@ -14,8 +14,15 @@
 
 # print(a+b)
 
+from datetime import datetime
+from datetime import timedelta
+import datetime
 
-import pip
+fecha_actual = datetime.datetime.now().strftime("%d")
+dia_anterior = datetime.date.today() - datetime.timedelta(days=1)
+ayer = (dia_anterior.strftime('%d'))
 
 
-py -m pip install --upgrade pip
+
+
+
