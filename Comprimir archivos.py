@@ -2,6 +2,8 @@ import zipfile
 import zipfile
 
 
+
+
 #CRC
 jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD31__QMF_Marcacion_CAN-IPC-CRC.zip', 'w')
 jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD31__QMF_Marcacion_CAN-IPC-CRC.xls', compress_type=zipfile.ZIP_DEFLATED)
@@ -51,3 +53,12 @@ jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_R
 #Inventario DSS
 jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD88_Inventario_DIS_DSS.zip', 'w')
 jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD88_Inventario_DIS_DSS.csv', compress_type=zipfile.ZIP_DEFLATED)
+
+
+#CTR
+jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD23_MARCA_CTR.zip', 'w')
+jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD23_MARCA_CTR.csv', compress_type=zipfile.ZIP_DEFLATED)
+
+
+from tkinter import messagebox
+messagebox.showinfo(message="hola joven anzola los archivos fueron comprimidos gracias  ", title="Título")
