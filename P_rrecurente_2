@@ -1,0 +1,20 @@
+# import zipfile
+# import os
+
+# def comprimir_archivos(nombre_archivo_zip, *archivos):
+#     with zipfile.ZipFile(nombre_archivo_zip, 'w', compression=zipfile.ZIP_DEFLATED) as zip:
+#         for archivo in archivos:
+#             zip.write(archivo)
+
+# comprimir_archivos('archivos_comprimidos.zip', 'archivo1.txt', 'archivo2.txt')
+
+
+import zipfile
+import os
+
+def comprimir_archivos(nombre_archivo_zip, *archivos):
+    with zipfile.ZipFile(nombre_archivo_zip, 'w', compression=zipfile.ZIP_DEFLATED) as zip:
+        for archivo in archivos:
+            zip.write(archivo)
+
+comprimir_archivos('archivos_comprimidos.zip', 'archivo1.txt', 'archivo2.txt')

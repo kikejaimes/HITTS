@@ -39,8 +39,8 @@ jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD13_M
 #jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD23_MARCA_GTC.csv', compress_type=zipfile.ZIP_DEFLATED)
 
 #Escalados Vip_IVR
-#jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_VIP_IVR.zip', 'w')
-#jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_VIP_IVR.xls', compress_type=zipfile.ZIP_DEFLATED)
+jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_VIP_IVR.zip', 'w')
+jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_VIP_IVR.xls', compress_type=zipfile.ZIP_DEFLATED)
 
 #Reincidencia Vip_AV
 jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Reincidencia_VIP_AV.zip', 'w')
@@ -51,3 +51,22 @@ jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_R
 #Inventario DSS
 jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD88_Inventario_DIS_DSS.zip', 'w')
 jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD88_Inventario_DIS_DSS.csv', compress_type=zipfile.ZIP_DEFLATED)
+
+#Usuario recurso
+jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD31_Usuarios_Recursos.zip', 'w')
+jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD31_Usuarios_Recursos.csv', compress_type=zipfile.ZIP_DEFLATED)
+
+
+#Marca DISS DSS
+jungle_zip = zipfile.ZipFile('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD88_Marca_DIS_DSS.zip', 'w')
+jungle_zip.write('D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD88_Marca_DIS_DSS.csv', compress_type=zipfile.ZIP_DEFLATED)
+
+
+#Descarga log
+jungle_zip = zipfile.ZipFile('D:\Informes\BDD31_PQR_Log_Pendientes.zip', 'w')
+jungle_zip.write('D:\Informes\BDD31_PQR_Log_Pendientes.csv', compress_type=zipfile.ZIP_DEFLATED)
+
+
+
+from tkinter import messagebox
+messagebox.showinfo(message="hola joven anzola se comprimieron los archivos, gracias  ", title="Título")
