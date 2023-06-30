@@ -60,7 +60,7 @@ shutil.copy("D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD31_Usuari
 
 #dth
 shutil.copy("D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_DTH.zip", 
-            "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\10 Centros de Contacto y Solucion\\11 Centros Telefónicos\\03 Canal Telefonico\\2023")
+            "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\10 Centros de Contacto y Solucion\\11 Centros Telefónicos\\03 Canal Telefonico\\2023\\06 Junio")
 
 #Reincidencia PQR
 shutil.copy("D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD31_Reincidencia_PQR.zip", 
@@ -99,11 +99,11 @@ shutil.copy("D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD23_MARCA_
 
 #Escalados Vip_IVR
 shutil.copy("D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Escalados_VIP_IVR.zip", 
-            "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\10 Centros de Contacto y Solucion\\11 Centros Telefónicos\\03 Canal Telefonico\\2023")
+            "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\10 Centros de Contacto y Solucion\\11 Centros Telefónicos\\03 Canal Telefonico\\2023\\06 Junio")
 
 #Reincidencia Vip_IVR
 shutil.copy("D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD11_Reincidencia_VIP_AV.zip", 
-            "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\10 Centros de Contacto y Solucion\\11 Centros Telefónicos\\03 Canal Telefonico\\2023")
+            "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\10 Centros de Contacto y Solucion\\11 Centros Telefónicos\\03 Canal Telefonico\\2023\\06 Junio")
 
 #Marca DSS
 shutil.copy("D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD88_Marca_DIS_DSS.zip", 
@@ -114,10 +114,16 @@ shutil.copy("D:\Repositorio_PQR - Triara\PQR\Bases_Diarias\Archivos\BDD88_Invent
             "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\20 Fidelización y Retención\\23 Retencion\\01 Bases Normales\\2023\\06 Junio")
 
 #Pendientes LOG
-shutil.copy("D:\Informes\BDD31_PQR_Log_Pendientes.zip", 
-            "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\10 Centros de Contacto y Solucion\\11 Centros Telefónicos\\03 Canal Telefonico\\2023\\06 Junio")
+#shutil.copy("D:\Informes\BDD31_PQR_Log_Pendientes.zip", 
+    #        "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\10 Centros de Contacto y Solucion\\11 Centros Telefónicos\\03 Canal Telefonico\\2023\\06 Junio")
+
+#Rescalados
+shutil.copy("D:\Informes\Control del Churn\\2023\BDD40_JunioPendientes_PQR_reescalados.zip", 
+            "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\40 Planeación y Estrategia\\43 MEC\\02 Control del Churn\\01 Aseguramiento de Bajas\\01 Tickets\\2023\\06 Junio")
+
+
 
 
 # sirve para que muestre en pantalla un mensaje 
 from tkinter import messagebox
-messagebox.showinfo(message="hola joven anzola los archivos fueron publicados gracias  ", title="Título")
+messagebox.showinfo(message="hola joven luchito los archivos fueron publicados gracias  ", title="Título")

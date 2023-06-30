@@ -21,15 +21,19 @@ shutil.copy(f"D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD34_{fecha_actua
 
 #pendientes comprime y publica
 
-# jungle_zip = zipfile.ZipFile(f'D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD31_{fecha_actual}_PENDIENTES.zip', 'w')
-# jungle_zip.write(f'D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD31_{fecha_actual}_PENDIENTES.csv', os.path.basename('BDD31_{fecha_actual}_PENDIENTES.csv'), compress_type=zipfile.ZIP_DEFLATED)
+jungle_zip = zipfile.ZipFile(f'D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD31_{fecha_actual}_PENDIENTES.zip', 'w')
+jungle_zip.write(f'D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD31_{fecha_actual}_PENDIENTES.csv', os.path.basename('BDD31_{fecha_actual}_PENDIENTES.csv'), compress_type=zipfile.ZIP_DEFLATED)
 
-# shutil.copy(f"D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD31_{fecha_actual}_PENDIENTES.zip", 
-#             "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\30 PQR\\31 PQR Operacional\\2023\\06 Junio")
+shutil.copy(f"D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD31_{fecha_actual}_PENDIENTES.zip", 
+             "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\30 PQR\\31 PQR Operacional\\2023\\06 Junio")
 
 # #marcaciones Cun
-# jungle_zip = zipfile.ZipFile(f'D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD_Marcaciones_CUN.zip', 'w')
-# jungle_zip.write(f'D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD_Marcaciones_CUN.xls', compress_type=zipfile.ZIP_DEFLATED)
+jungle_zip = zipfile.ZipFile(f'D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD_Marcaciones_CUN.zip', 'w')
+jungle_zip.write(f'D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD_Marcaciones_CUN.xls', compress_type=zipfile.ZIP_DEFLATED)
+
+shutil.copy(f"D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD_Marcaciones_CUN.zip", 
+           "C:\\Users\jaimesle\Comunicacion Celular S.A.- Comcel S.A\Gerencia Cuidado al Cliente - 07 Bases de Datos\\40 Planeación y Estrategia\\41 Inteligencia de Clientes\\02 Gestion Informacion\\02 Marcaciones Diarias\\2023\junio")
+
 
 #pend_sop
 
@@ -56,4 +60,4 @@ shutil.copy(f"D:\\OPERACION\\77-PENDIENTES_PQR_CUN_SOP\\files\BDD_PQRs_pend_Sop_
 
 
 from tkinter import messagebox
-messagebox.showinfo(message="hola joven anzola los archivos fueron publicados gracias  ", title="Título")
+messagebox.showinfo(message="hola Luchito los archivos fueron publicados gracias  ", title="Título")
