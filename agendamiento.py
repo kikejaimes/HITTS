@@ -1,21 +1,15 @@
-import pandas as pd
+import openpyxl
+import csv
 
+# Abrir archivo de Excel
+workbook = openpyxl.load_workbook('archivo.xlsx')
+worksheet = workbook.active
 
-# Creamos un dataframe de ejemplo
-data = {'Columna1': [1, 2, 3, 4, 4, 5, 6],
-        'Columna2': ['A', 'B', 'C', 'D', 'E', 'F', 'G']}
-df = pd.DataFrame(data)
+# Abrir archivo de texto con columnas delimitadas por '|'
+with open('archivo.txt', 'r') as file:
+    reader = csv.reader(file, delimiter='|')
+    for row in reader:
+        # Seleccionar columna por coma
+        column = row[0].split(',')
+        print(column)
 
-# Eliminar duplicados de la columna1
-df = df.drop_duplicates(subset=['Columna1'])
-
-# Ordenar por columna2
-df = df.sort_values(by=['Columna2'])
-
-# Filtrar datos de columna1 mayores que 3
-df = df[df['Columna1'] > 3]
-
-# Eliminar datos de columna1 iguales a 5
-df = df[df['Columna1'] != 5]
-
-print(df)
